@@ -1,0 +1,35 @@
+h1{
+	clear: both;
+}
+.cont1{
+	border: 1px solid gray;
+}
+.cont2,.cont3{
+	overflow: auto;
+	border: 1px solid gray;
+}
+
+.cont1 #yellow,.cont1 #blue,.cont1 #red{
+	width: 150px;
+	height: 100px;
+}
+
+.cont2 #yellow,.cont2 #blue,.cont2 #red{
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+.cont3 #yellow,.cont3 #blue,.cont3 #red{
+	width: 150px;
+	height: 100px;
+	float: right;
+}
+#yellow{
+	background-color: yellow;
+}
+#blue{
+	background-color: blue;
+}
+#red{
+	background-color: red;
+}
